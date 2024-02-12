@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Résultats de Clustering</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<div class="background"></div>
+<div class="container">
+    
+        <h1>Résultats de Clustering</h1>
+        <h2>Informations sur le Dataset</h2>
+        <p>Taille : {{ dataset_info.taille }}</p>
+        <p>Colonnes : {{ dataset_info.colonnes }}</p>
+
+        <h2>Résultats d'évaluation</h2>
+        <p>Temps d'exécution : {{ clustering_results.temps_execution }}</p>
+        <p>Nombre de clusters : {{ clustering_results.nombre_clusters }}</p>
+
+        <h2>Données Clustérisées</h2>
+        {{ data|safe }}
+    </div>
+        
+    
+</body>
+</html>
