@@ -1,0 +1,104 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Couleur de fond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.file-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent; /* Fond transparent */
+    width: 200px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3; /* Opacité de l'image */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fond.jpg'); /* Remplacez 'fond.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    background-blur: 10px; /* Flou de l'image de fond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.section h2 {
+    color: #007bff;
+}
+
+.data {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
